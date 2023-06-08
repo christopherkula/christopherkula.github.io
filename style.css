@@ -1,0 +1,80 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #444;
+}
+
+div#banner {
+  position: fixed;
+  top: 15px;
+  left: 70px;
+  opacity: 0.5;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+input#search {
+  position: fixed;
+  top: 60px;
+  left: 60px;
+  width: 500px;
+  padding: 10px;
+  max-width: 80%;
+  border-width: 3px;
+  border-color: grey;
+  border-radius: 8px;
+  opacity: 0.8;
+  font-size: 24px;
+}
+
+button#submit {
+  position: fixed;
+  top: 60px;
+  right: 60px;
+  height: 53.5px;
+  padding: 10px;
+  border-width: 3px;
+  border-color: #393;
+  border-radius: 8px;
+  font-size: 24px;
+  color: #393;
+  background-color: #ccc;
+}
+
+#sfmap {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-image: url("sfmap.jpg");
+  background-size: 100%;
+}
+
+#sfmap image {
+  width: 250px;
+  height: auto;
+  position: relative;
+}
+
+#sfmap image.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+div#footer {
+  position: fixed;
+  bottom: -5px;
+  left: -5px;
+  opacity: 0.02;
+  font-size: 150px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 115px;
+  color: white;
+  user-select: none;
+  pointer-events: none;
+}
